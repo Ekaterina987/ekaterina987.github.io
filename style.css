@@ -592,62 +592,7 @@ i[class="arrow"]{
   /* MEDIA QUERIES */
 
 
-/* MD */
 
-@media only screen  and (min-width : 768px) {
-  .navbar{
-    display: flex;
-  }
-  .hamburger-container{
-    display: none;
-  }
-
-  .footer-nav-container{
-    width: 50%;
-  }
-  .newsletter-container{
-
-    width: calc(50% - 1px);
-  }
-
-}
-
-
-/* LG */
-
-@media only screen  and (min-width : 992px){
-  .vertical-bar{
-    height: 100%;
-    display: block;
-  }
-  .vertical-bar{
-    display: block;
-  }
-
-
-}
-
-  /* XL */
-
-  @media only screen  and (min-width : 1200px) {
-    .social-icons{
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin-top: -2rem;
-    }
-
-    .vertical-bar{
-      height: calc(100% - 3rem);
-    }
-
-    .footer-nav-container{
-      margin-top: -1.7rem;;
-    }
-    .newsletter-container{
-      margin-top: -1.7rem;
-    }
-  }
 
 
 
