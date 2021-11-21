@@ -81,8 +81,12 @@ header{
   position: absolute;
 }
 
+.hamburger-navbar > .nav-item > label >.arrow{
+  margin-left: 1.5rem;
+}
+
 .hamburger-navbar .search{
-  width: 8rem;
+  width: 6rem;
 }
 
 .hamburger-navbar .sub-nav .nav-item,.hamburger-navbar .sub-nav .cart, .hamburger-navbar  .sub-nav .search-bar{
@@ -90,9 +94,8 @@ header{
 }
 
 .hamburger-navbar li.nav-item .sub-nav{
-  margin-left: 9rem;
+  margin-left: 8rem;
   margin-top: -2.25rem;
-  width: 16rem;
 }
 
 #toggle-sub-nav:checked + .sub-nav {
@@ -112,6 +115,8 @@ header{
   padding: 1rem;
   overflow-y: auto;
   max-height: 32rem;
+  width: 10rem;
+  overflow-x: hidden;
 }
 
 .sub-navbar .nav-item:nth-child(9) .nav-link{
