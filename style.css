@@ -73,29 +73,27 @@ header{
 #toggle:checked + .hamburger-navbar {
   display: block;
 }
+.hamburger-navbar{
+  width: 16rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 35rem;
+}
 .visually-hidden {
   visibility: hidden;
 }
 .hamburger-navbar .sub-nav{
   display: none;
-  position: absolute;
+  position: relative;
 }
 
 .hamburger-navbar > .nav-item > label >.arrow{
   margin-left: 1.5rem;
 }
 
-.hamburger-navbar .search{
-  width: 6rem;
-}
-
 .hamburger-navbar .sub-nav .nav-item,.hamburger-navbar .sub-nav .cart, .hamburger-navbar  .sub-nav .search-bar{
-  padding: 1rem;
-}
-
-.hamburger-navbar li.nav-item .sub-nav{
-  margin-left: 8rem;
-  margin-top: -2.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #toggle-sub-nav:checked + .sub-nav {
@@ -109,14 +107,12 @@ header{
   margin-right: -2px;
 }
 
+.sub-nav > .triangle{
+  display: none;
+}
 
 .sub-navbar{
-  background-color: white;
   padding: 1rem;
-  overflow-y: auto;
-  max-height: 32rem;
-  width: 10rem;
-  overflow-x: hidden;
 }
 
 .sub-navbar .nav-item:nth-child(9) .nav-link{
