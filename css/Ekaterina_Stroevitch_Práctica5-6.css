@@ -149,6 +149,8 @@ p{
     position: absolute;
     left: 0;
 }
+
+/* Se dan los nombres de las animaciones asociadas y los parámetros que tienen */
 #star1{
     animation-name: starmove;
     animation-duration: 6s;
