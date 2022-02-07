@@ -94,6 +94,7 @@ p{
 .audio{
     border: 2px solid #18191a;
     border-radius: 2em;
+    width: 100%;
 }
 .descarga{
     color: #18191a;
@@ -429,4 +430,3 @@ p{
     }
 
 }
-
